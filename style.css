@@ -1,5 +1,54 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Update the header */
+header {
+  text-align: center;
 }
+
+/* Center our image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Jazz up our navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Our image caption needs work */
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Update the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make our #details section horizontal */
+#details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#details > div {
+  float: none;
+  width: 25%;
+}
+
+/* As a finishing touch */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-row > div {
+  width: 25%;
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
